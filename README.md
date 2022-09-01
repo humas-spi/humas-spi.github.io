@@ -1,1 +1,0 @@
-# spindosat.github.io
