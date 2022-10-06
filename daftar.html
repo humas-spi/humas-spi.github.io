@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Serikat Pekerja Indosat</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Sailor - v4.8.0
+  * Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+
+
+      <iframe
+        id="JotFormIFrame-222770671718057"
+        title="Formulir SP Indosat"
+        onload="window.parent.scrollTo(0,0)"
+        allowtransparency="true"
+        allowfullscreen="true"
+        allow="geolocation; microphone; camera"
+        src="https://form.jotform.com/222770671718057"
+        frameborder="0"
+        style="
+        min-width: 100%;
+        height:539px;
+        border:none;"
+        scrolling="no"
+      >
+      </iframe>
+      <script type="text/javascript">
+        var ifr = document.getElementById("JotFormIFrame-222770671718057");
+        if (ifr) {
+          var src = ifr.src;
+          var iframeParams = [];
+          if (window.location.href && window.location.href.indexOf("?") > -1) {
+            iframeParams = iframeParams.concat(window.location.href.substr(window.location.href.indexOf("?") + 1).split('&'));
+          }
+          if (src && src.indexOf("?") > -1) {
+            iframeParams = iframeParams.concat(src.substr(src.indexOf("?") + 1).split("&"));
+            src = src.substr(0, src.indexOf("?"))
+          }
+          iframeParams.push("isIframeEmbed=1");
+          ifr.src = src + "?" + iframeParams.join('&');
+        }
+        window.handleIFrameMessage = function(e) {
+          if (typeof e.data === 'object') { return; }
+          var args = e.data.split(":");
+          if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+          if (!iframe) { return; }
+          switch (args[0]) {
+            case "scrollIntoView":
+              iframe.scrollIntoView();
+              break;
+            case "setHeight":
+              iframe.style.height = args[1] + "px";
+              break;
+            case "collapseErrorPage":
+              if (iframe.clientHeight > window.innerHeight) {
+                iframe.style.height = window.innerHeight + "px";
+              }
+              break;
+            case "reloadPage":
+              window.location.reload();
+              break;
+            case "loadScript":
+              if( !window.isPermitted(e.origin, ['jotform.com', 'jotform.pro']) ) { break; }
+              var src = args[1];
+              if (args.length > 3) {
+                  src = args[1] + ':' + args[2];
+              }
+              var script = document.createElement('script');
+              script.src = src;
+              script.type = 'text/javascript';
+              document.body.appendChild(script);
+              break;
+            case "exitFullscreen":
+              if      (window.document.exitFullscreen)        window.document.exitFullscreen();
+              else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
+              else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
+              else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
+              else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
+              break;
+          }
+          var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+          if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+            var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+            iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+          }
+        };
+        window.isPermitted = function(originUrl, whitelisted_domains) {
+          var url = document.createElement('a');
+          url.href = originUrl;
+          var hostname = url.hostname;
+          var result = false;
+          if( typeof hostname !== 'undefined' ) {
+            whitelisted_domains.forEach(function(element) {
+                if( hostname.slice((-1 * element.length - 1)) === '.'.concat(element) ||  hostname === element ) {
+                    result = true;
+                }
+            });
+            return result;
+          }
+        };
+        if (window.addEventListener) {
+          window.addEventListener("message", handleIFrameMessage, false);
+        } else if (window.attachEvent) {
+          window.attachEvent("onmessage", handleIFrameMessage);
+        }
+        </script>
+
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
